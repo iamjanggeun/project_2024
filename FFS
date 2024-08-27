@@ -1,0 +1,83 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO89kAUgVeS0jCGto9/rRHR",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/iamjanggeun/project_2024/blob/main/FFS\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Y4nsKPh0cIkK",
+        "outputId": "aa83591c-0acb-4906-b754-3c96fd51d0fd"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'FaceForensics'...\n",
+            "remote: Enumerating objects: 414, done.\u001b[K\n",
+            "remote: Counting objects: 100% (46/46), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (32/32), done.\u001b[K\n",
+            "remote: Total 414 (delta 29), reused 14 (delta 14), pack-reused 368 (from 1)\u001b[K\n",
+            "Receiving objects: 100% (414/414), 59.81 MiB | 22.38 MiB/s, done.\n",
+            "Resolving deltas: 100% (166/166), done.\n"
+          ]
+        }
+      ],
+      "source": [
+        "!git clone https://github.com/ondyari/FaceForensics.git"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cd iamjanggeun/project_2024.git"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AJkjXRXQcbQ5",
+        "outputId": "072b25f8-1485-4c6d-cb0b-5fc3a924bdf3"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[Errno 2] No such file or directory: 'iamjanggeun/project_2024.git'\n",
+            "/content\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
